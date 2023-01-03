@@ -16,6 +16,22 @@ Soulbound tokens provide everyone verifiable credentials. Professors could issue
 ## NFT ownership
 Artists can get rid of dishonest individuals selling NFT collections under the guise of famous artists by linking soulbound tokens to their artistic profile. SBTs would allow buyers to trace the social provenance, whereas blockchain inclusion enables them to track when a specific work was created.
 
+## How to recover your Soul if lost?
+One of the downsides of Soulbound tokens includes losing your Soul. There are chances of losing your keys to your Soul and losing the data or the SBT stored in such cases. However, Buterin has proposed a recovery solution to it.
+
+SBTs enable a recovery method called “community recovery,” which is similar to social recovery. It is a robust method that ties a Soul’s recovery to its memberships across various communities, providing a broad range of real-time relationships for security. SBTs represent a person’s memberships in different communities, some of which may be off-chain, like membership in a club or church, while others may be on-chain, like participation in a DAO or protocol governance. In a community recovery model, recovering a Soul’s private keys would require consent from a qualified majority of the Soul’s communities.
+
+In simple terms, members from the Souls communities can help you recover your keys.
+
+## How can SBTs improve the present web3 ecosystem?
+Trust is a significant challenge impacting the web3 industry. How can you place your faith in someone’s reputation in a system that is meant to be trustless? For example, similar to traditional bank credit scores, SBTs could track users’ DeFi borrowing history and other metrics that determine their risk profile.
+
+SBTs are another substitute that has been put out for voting in decentralized autonomous organizations (DAOs). DAOs could issue SBTs that assign voting power depending on members’ engagement with the community, as opposed to the existing governance model based on how many tokens a member possesses. This concept would provide the most devoted users with the best reputation and the greatest voting power.
+
+SBTs have the potential to enhance DAO voting integrity by protecting against Sybil attacks, which pose a serious danger to the present DAO governance architecture, in addition to establishing a reputation-based voting mechanism.
+
+In a Sybil attack, bad actors can manipulate voting proposals by purchasing a majority of governance tokens. The public and verifiable nature of SBTs could help prevent corruption and Sybil attacks in a DAO by allowing for the detection of bad actors who may try to manipulate voting proposals for their own benefit. This helps ensure that the project’s direction is determined by those with the most legitimate interests and not just by those with the most voting power.
+
 ## Cons of SBT’s
 Along with lucrative advantages, soulbound tokens have some cons, too. For example, the current wallet mix may not be ideal for SBTs due to the lack of community recovery methods. As a result, community recovery wallets need a wide variety of soulbound tokens dispersed throughout several communities to recover lost Souls.
 

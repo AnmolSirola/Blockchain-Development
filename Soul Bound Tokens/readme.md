@@ -48,6 +48,8 @@ A solution to the above lies in a community recovery strategy, in which a Soulâ€
 ## Conclusion
 Vitalik Buterin considers Soulbound tokens a building block to a decentralized society. By establishing digital identity and provenance, SBTs are proving beneficial in developing a DeSoc. While the concept of a decentralized society may seem abstract, its practical applications are still worth considering. SBTs, with their many use cases in web3, DeFi, and even daily life, is an emerging phenomenon that is likely to revolutionize the web3 ecosystem and elevate the concept of NFTs beyond owning pieces of art and bragging rights.
 
+
+
 # Resources :-
 
 A curated list of awesome links related to Soulbound Tokens.

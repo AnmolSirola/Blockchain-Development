@@ -43,6 +43,8 @@ In a Sybil attack, bad actors can manipulate voting proposals by purchasing a ma
 ## Cons of SBT’s
 Along with lucrative advantages, soulbound tokens have some cons, too. For example, the current wallet mix may not be ideal for SBTs due to the lack of community recovery methods. As a result, community recovery wallets need a wide variety of soulbound tokens dispersed throughout several communities to recover lost Souls.
 
+A solution to the above lies in a community recovery strategy, in which a Soul’s private keys can be obtained if consent by a qualified majority of one of the communities (that the Soul belongs to) is received..
+
 ## Conclusion
 Vitalik Buterin considers Soulbound tokens a building block to a decentralized society. By establishing digital identity and provenance, SBTs are proving beneficial in developing a DeSoc. While the concept of a decentralized society may seem abstract, its practical applications are still worth considering. SBTs, with their many use cases in web3, DeFi, and even daily life, is an emerging phenomenon that is likely to revolutionize the web3 ecosystem and elevate the concept of NFTs beyond owning pieces of art and bragging rights.
 

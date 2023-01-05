@@ -1,30 +1,62 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.7 ;
 
-import {ERC721} from "solmate/tokens/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-///  ERC721 Token that can be burned and minted but not transferred.
-abstract contract Soulbound is ERC721 {
+contract UniversityDegree is ERC721URIStorage {
 
-    
-    error TokenIsSoulbound();
+  address owner ;
+  
+  using Counters for Counters.Counter ;
+  Counters.Counter private tokenIds;
 
-    /// Your NFT's name and symbol here
-    constructor(string memory name, string memory symbol) ERC721(SoulBond, SBT){}
+  constructor() ERC721("UniversityDegree" , "Degree"){
+    owner = msg.sender ;
+  }
 
-    /// Prevent Non-soulbound transfers
-    function onlySoulbound(address from, address to) internal pure {
-        // Revert if transfers are not from the 0 address and not to the 0 address
-        if (from != address(0) && to != address(0)) {
-            revert TokenIsSoulbound();
-        }
-    }
+  mapping(address => bool) public issuedDegree ;
 
-    ///  Override token transfers to prevent sending tokens
-    function transferFrom(address from, address to, uint256 id) public override {
-        // From address, to the another address 
-        onlySoulbound(from, to);
-        super.transferFrom(from, to, id);
-    }
+  modifier onlyOwner() {
+      require(msg.sender == owner);
+      _;
+  }
+
+  function issueDegree(address to) external onlyOwner {
+     issuedDegree[to] = true;
+  }
+
+  function claimDegree(string memory tokenURI) public returns(uint256){
+     require(issuedDegree[msg.sender] , "Degree is not issued");
+
+     tokenIds.increment();
+     uint256 newItemId = tokenIds.current();
+     _mint(msg.sender , newItemId);
+     _setTokenURI(newItemId , tokenURI);
+     
+     personToDegree[msg.sender] = tokenURI;
+     issuedDegree[msg.sender] = false ;
+
+     return newItemId;
+      
+  }
+
+  mapping(address => string) public personToDegree ;
+
+  bool cannotTransfer = true;
+
+  function safeTransferFrom(address _from, address _to, uint256 _tokenId) public virtual override {
+      require(cannotTransfer == false, "You cannot transfer this NFT.");
+  }
+
+  function transferFrom(address _from, address _to, uint256 _tokenId) public virtual override {
+      require(cannotTransfer == false, "You cannot transfer this NFT.");
+  }
+
+  function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes memory _data) public virtual override {
+      require(cannotTransfer == false, "You cannot transfer this NFT.");
+  }
+
 }

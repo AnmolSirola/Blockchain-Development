@@ -9,12 +9,20 @@ There are a few different ways that soul bound tokens can be used in games. For 
 In some cases, soul bound tokens might be earned through gameplay, such as by completing quests or defeating certain enemies. In other cases, they might be obtained through microtransactions or other means outside of the game itself.
 Overall, the use of soul bound tokens can vary widely depending on the specific game and the intended purpose of the tokens.
 
+## How do Soulbound Tokens (SBTs) work?
+
+Soulbound tokens function in a similar manner to NFTs apart from their non-transferability, which is also why Ethereum creator Vitalik Buterin refers to them as non-transferable NFTs. They are non-fungible i.e they can't be interchanged, with each token being unique and non-transferable.
+
+Souls can issue self-certified SBTs to themselves. However, a prevalent process is when other Souls or SBT creators issue an SBT to another Soul's address. The SBT, its issuer, and Soul's address can be publicly verified on the blockchain. Hence, anyone can easily track or prove the trust circles of a particular Soul.
+
 ### How can soulbound tokens be used?
 
-## Educational Transcripts, Diplomas, Certifications
-Soulbound tokens provide everyone verifiable credentials. Professors could issue soulbound tokens to their students whenever their students attain certain academic milestones and achievements, such as completing a course or project. When applying to jobs, graduates could choose to share their educational Souls with hiring managers. The hiring managers could look at their Souls & SBTs to see what skills and experiences their candidates verifiably have.
-## NFT ownership
-Artists can get rid of dishonest individuals selling NFT collections under the guise of famous artists by linking soulbound tokens to their artistic profile. SBTs would allow buyers to trace the social provenance, whereas blockchain inclusion enables them to track when a specific work was created.
+- ` Educational Transcripts, Diplomas, Certifications` - Soulbound tokens provide everyone verifiable credentials. Professors could issue soulbound tokens to their students whenever their students attain certain academic milestones and achievements, such as completing a course or project. When applying to jobs, graduates could choose to share their educational Souls with hiring managers. The hiring managers could look at their Souls & SBTs to see what skills and experiences their candidates verifiably have.
+- ` NFT ownership` - Artists can get rid of dishonest individuals selling NFT collections under the guise of famous artists by linking soulbound tokens to their artistic profile. SBTs would allow buyers to trace the social provenance, whereas blockchain inclusion enables them to track when a specific work was created.
+
+-  `Medical record management` - Switching doctors or insurance providers can be a frustrating experience. It requires spending hours on the phone requesting medical history, verifying your identity, and trying to remember if you used your mother’s maiden name or the street you grew up on as a security question. SBTs would render this cumbersome process obsolete with something like a medical Soul that holds all of your medical records.
+-  `Souldrops` - Crypto projects usually form new communities by launching airdrops or carrying out token sales. But this process is often subject to Sybil attacks and it fails to attract the right community. With the concept of Souldrops as mentioned in Vitalik Buterin's whitepaper, projects can attract the right communities by conducting airdrops based on computations from the SBT or other tokens within a Soul.
+-  `Digital CV` - health institutions have encountered a series of events where inexperienced medical personnel lie about their CV, and eventually, administer wrong medications to patients during employment.SBTs solve these challenges since they can serve as a digital CV that can be publicly verified.
 
 ## How to recover your Soul if lost?
 One of the downsides of Soulbound tokens includes losing your Soul. There are chances of losing your keys to your Soul and losing the data or the SBT stored in such cases. However, Buterin has proposed a recovery solution to it.

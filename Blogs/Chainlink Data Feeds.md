@@ -31,7 +31,9 @@ L2 sequencer feeds track the last known status of the sequencer on an L2 network
 Data Feeds are an example of a decentralized oracle network and include the following components:
 
 ` Consumer`: A consumer is an on-chain or off-chain application that uses Data Feeds. Consumer contracts use the AggregatorV3Interface to call functions on the proxy contract and retrieve information from the aggregator contract. For a complete list of functions available in the AggregatorV3Interface, see the Data Feeds API Reference.
+
 `Proxy contract`: Proxy contracts are on-chain proxies that point to the aggregator for a particular data feed. Using proxies enables the underlying aggregator to be upgraded without any service interruption to consuming contracts. Proxy contracts can vary from one data feed to another, but the AggregatorProxy.sol contract on Github is a common example.
+
 `Aggregator contract`: An aggregator is a contract that receives periodic data updates from the oracle network. Aggregators store aggregated data on-chain so that consumers can retrieve it and act upon it within the same transaction. For a complete list of functions and variables available on most aggregator contracts, see the Data Feeds API Reference.
 
 ## Reading proxy and aggregator configurations
